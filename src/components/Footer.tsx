@@ -1,6 +1,6 @@
 const Footer = () => {
 	return (
-	  <footer className="flex flex-col desktop:flex-row items-center justify-between py-3 desktop:py-0 px-10 desktop:px-20 lg:px-40 xl:px-60 min-h-[50px] w-full bg-blue-950 text-white">
+	  <footer className="flex flex-col desktop:flex-row items-center justify-between py-3 desktop:py-0 px-10 desktop:px-20 lg:px-40 xl:px-60 min-h-[50px] w-full bg-custom-black text-white">
 		<div className="text-center flex flex-wrap justify-center gap-x-1">
 		  <span>
 			V{process.env.REACT_APP_VERSION ?? "0.0.0"} Copyright © 2024 Gustvex.

@@ -6,7 +6,10 @@ export const content = [
   './src/**/*.{ts,tsx}',
 ];
 export const theme = {
-  extend: {},
+  extend: {
+    colors: {
+      'custom-black': '#050505',
+    },
+  },
 };
 export const plugins = [];
-
