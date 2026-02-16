@@ -1,4 +1,4 @@
-import { Terminal, ChevronDown } from 'lucide-react'
+import { Terminal } from 'lucide-react'
 import Page from '@/layout/page'
 import { ScrollReveal } from '@/components/custom/scroll-reveal'
 import { AboutSection } from './about'
