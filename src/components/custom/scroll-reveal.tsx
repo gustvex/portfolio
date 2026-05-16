@@ -1,11 +1,20 @@
 import { cn } from '@/lib/utils'
 import { useScrollReveal } from '@/hooks/use-scroll-reveal'
 
+type Direction = 'up' | 'down' | 'left' | 'right'
+
 type ScrollRevealProps = {
   children: React.ReactNode
   className?: string
   delay?: number
-  direction?: 'up' | 'down' | 'left' | 'right'
+  direction?: Direction
+}
+
+const directionStyles: Record<Direction, string> = {
+  up: 'translate-y-12',
+  down: '-translate-y-12',
+  left: 'translate-x-12',
+  right: '-translate-x-12',
 }
 
 export function ScrollReveal({
@@ -14,14 +23,7 @@ export function ScrollReveal({
   delay = 0,
   direction = 'up',
 }: ScrollRevealProps) {
-  const { ref, isVisible } = useScrollReveal(0.1)
-
-  const directionStyles = {
-    up: 'translate-y-12',
-    down: '-translate-y-12',
-    left: 'translate-x-12',
-    right: '-translate-x-12',
-  }
+  const { ref, isVisible } = useScrollReveal({ threshold: 0.1 })
 
   return (
     <div

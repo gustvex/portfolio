@@ -13,7 +13,8 @@ function Layout() {
 
         <footer className="border-t border-border/40">
           <div className="mx-auto max-w-5xl px-6 py-6 text-center text-sm text-muted-foreground sm:px-8 lg:px-10">
-            © 2026 Portfólio. Todos os direitos reservados.
+            © {new Date().getFullYear()} Portfólio. Todos os direitos
+            reservados.
           </div>
         </footer>
       </div>
