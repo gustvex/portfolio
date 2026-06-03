@@ -61,6 +61,14 @@ src/
 - **Performance** — code-splitting por rota com `React.lazy` + `Suspense`; imagens com `loading="lazy"`.
 - **Resiliência** — `ErrorBoundary` global e fallback de 404.
 
+## Decisões de Arquitetura
+
+Decisões importantes estão documentadas em [`docs/adr/`](docs/adr/):
+
+| ADR | Tópico |
+|---|---|
+| [001](docs/adr/001-component-organization.md) | Organização de componentes (shared, sections, ui, etc) |
+
 ## Privacidade & armazenamento local
 
 Antes de qualquer conteúdo ser renderizado, um aviso solicita aceite. Após aceite, são utilizados apenas estes itens **no próprio navegador do usuário**:
