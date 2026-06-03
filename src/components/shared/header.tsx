@@ -1,15 +1,10 @@
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import { ModeToggle } from '@/components/theme/mode-toggle'
+import { useScrollToSection } from '@/hooks/use-scroll-to-section'
 import { navLinks, socialLinks } from '@/data/navigation'
 import { site } from '@/data/site'
 import { cn } from '@/lib/utils'
-
-const scrollToSection = (href: string) => {
-  const id = href.replace('#', '')
-  const element = document.getElementById(id)
-  element?.scrollIntoView({ behavior: 'smooth' })
-}
 
 type NavLinkItemProps = {
   href: string
@@ -38,6 +33,7 @@ function NavLinkItem({ href, label, onNavigate, className }: NavLinkItemProps) {
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false)
+  const scrollToSection = useScrollToSection()
 
   const handleNavigate = (href: string) => {
     scrollToSection(href)
