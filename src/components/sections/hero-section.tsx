@@ -1,6 +1,6 @@
 import { Terminal } from 'lucide-react'
-import { CodeCard } from '@/components/custom/code-card'
-import { ScrollReveal } from '@/components/custom/scroll-reveal'
+import { CodeCard } from '@/components/shared/code-card'
+import { ScrollReveal } from '@/components/shared/scroll-reveal'
 
 const HERO_CODE_LINES = [
   { key: 'nome', value: 'Gustavo Oliveira' },

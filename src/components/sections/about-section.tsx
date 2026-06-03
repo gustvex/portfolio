@@ -1,9 +1,9 @@
 import { User } from 'lucide-react'
 import image from '@/assets/image.png'
-import { AnimatedDots } from '@/components/custom/animated-dots'
-import { ScrollReveal } from '@/components/custom/scroll-reveal'
-import { SectionHeader } from '@/components/custom/section-header'
-import { TechBadge } from '@/components/custom/tech-badge'
+import { AnimatedDots } from '@/components/shared/animated-dots'
+import { ScrollReveal } from '@/components/shared/scroll-reveal'
+import { SectionHeader } from '@/components/shared/section-header'
+import { TechBadge } from '@/components/shared/tech-badge'
 import { Card } from '@/components/ui/card'
 import { techStack } from '@/data/tech-stack'
 

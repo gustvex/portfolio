@@ -2,6 +2,14 @@
 
 Portfólio pessoal de Gustavo Oliveira (Engenheiro de Software Full Stack), construído com React, TypeScript e Vite.
 
+## Demo
+
+[![Ver demo online](https://img.shields.io/badge/Ver_demo_online-Render-46E3B7?logo=render&logoColor=white&style=for-the-badge)](https://portfolio-dgzd.onrender.com)
+
+Acesse: **https://portfolio-dgzd.onrender.com**
+
+---
+
 ## Stack
 
 - **Framework:** React 19 + TypeScript
@@ -32,8 +40,8 @@ src/
 ├── assets/                  # imagens estáticas
 ├── components/
 │   ├── consent/             # gate de consentimento + carregamento condicional de fontes
-│   ├── custom/              # componentes próprios (Header, SectionHeader, ScrollReveal, ErrorBoundary, ...)
 │   ├── sections/            # seções da home (Hero, Sobre, Carreira, Projetos, Contato)
+│   ├── shared/              # componentes reutilizáveis (Header, SectionHeader, ScrollReveal, ErrorBoundary, TechBadge, ExternalLink)
 │   ├── theme/               # ThemeProvider + ModeToggle
 │   └── ui/                  # primitivos (Button, Card, DropdownMenu)
 ├── data/                    # dados estáticos (experiências, projetos, navegação, contatos)

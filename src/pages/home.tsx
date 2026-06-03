@@ -1,5 +1,5 @@
 import Page from '@/layout/page'
-import { ScrollReveal } from '@/components/custom/scroll-reveal'
+import { ScrollReveal } from '@/components/shared/scroll-reveal'
 import { AboutSection } from '@/components/sections/about-section'
 import { CareerSection } from '@/components/sections/career-section'
 import { ContactSection } from '@/components/sections/contact-section'

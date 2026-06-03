@@ -1,8 +1,8 @@
 import { ExternalLink as ExternalLinkIcon, FolderOpen, Github } from 'lucide-react'
-import { ExternalLink } from '@/components/custom/external-link'
-import { ScrollReveal } from '@/components/custom/scroll-reveal'
-import { SectionHeader } from '@/components/custom/section-header'
-import { TechBadge } from '@/components/custom/tech-badge'
+import { ExternalLink } from '@/components/shared/external-link'
+import { ScrollReveal } from '@/components/shared/scroll-reveal'
+import { SectionHeader } from '@/components/shared/section-header'
+import { TechBadge } from '@/components/shared/tech-badge'
 import { Card } from '@/components/ui/card'
 import { projects, type Project } from '@/data/projects'
 

@@ -1,7 +1,7 @@
 import { Briefcase, Calendar, MapPin } from 'lucide-react'
-import { ScrollReveal } from '@/components/custom/scroll-reveal'
-import { SectionHeader } from '@/components/custom/section-header'
-import { TechBadge } from '@/components/custom/tech-badge'
+import { ScrollReveal } from '@/components/shared/scroll-reveal'
+import { SectionHeader } from '@/components/shared/section-header'
+import { TechBadge } from '@/components/shared/tech-badge'
 import { Card } from '@/components/ui/card'
 import { experiences, type Experience } from '@/data/experiences'
 
