@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C C:/projects/portifolio status)",
+      "Bash(git -C C:/projects/portifolio branch -a)",
+      "Bash(git -C C:/projects/portifolio remote -v)",
+      "Read(//c/projects/**)",
+      "Read(//c/projects/desaparecidos-mt/**)",
+      "Bash(git -C C:/projects/portifolio branch develop)",
+      "Bash(git -C C:/projects/portifolio checkout -b feature/refactor-portfolio develop)",
+      "Bash(git -C C:/projects/portifolio branch)",
+      "Bash(yarn add *)",
+      "Bash(rm C:/projects/portifolio/yarn.lock)",
+      "Bash(npm install *)",
+      "Bash(npx vitest *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
