@@ -13,7 +13,14 @@
       "Bash(rm C:/projects/portifolio/yarn.lock)",
       "Bash(npm install *)",
       "Bash(npx vitest *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(python *)",
+      "Bash(cd /tmp)",
+      "Bash(unzip -q \"C:/Users/gusta/Downloads/Gustavo-Oliveira-Curriculo-Completo-PTBR \\(1\\).docx\")",
+      "Bash(sed 's/<w:t[^>]*>/\\\\n/g' word/document.xml)",
+      "Bash(sed 's/<[^>]*>//g')",
+      "Bash(grep -v '^$')",
+      "Bash(git add *)"
     ]
   }
 }
