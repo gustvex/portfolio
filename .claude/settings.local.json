@@ -20,7 +20,11 @@
       "Bash(sed 's/<w:t[^>]*>/\\\\n/g' word/document.xml)",
       "Bash(sed 's/<[^>]*>//g')",
       "Bash(grep -v '^$')",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(npm list *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }

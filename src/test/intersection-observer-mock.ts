@@ -7,6 +7,7 @@ const callbacks: Callback[] = []
 class MockIntersectionObserver implements IntersectionObserver {
   readonly root: Element | Document | null = null
   readonly rootMargin = ''
+  readonly scrollMargin = '0px'
   readonly thresholds: ReadonlyArray<number> = []
   private readonly callback: Callback
 
