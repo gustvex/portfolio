@@ -8,7 +8,7 @@ import { Card } from '@/components/ui/card'
 import { techStack } from '@/data/tech-stack'
 
 const ABOUT_DESCRIPTION =
-  'Sou estudante de engenharia de computação, apaixonado por tecnologia e desenvolvimento de software. Tenho experiência sólida em desenvolvimento full stack, trabalhando em projetos que vão de aplicações web a sistemas mais complexos. Estou sempre em busca de novos desafios e oportunidades para crescer como desenvolvedor.'
+  'Software Developer full stack e graduando em Engenharia de Computação, programando desde os 16 anos. Minha trajetória é uma evolução constante: comecei no front-end de sistemas públicos institucionais, amadureci arquitetando interfaces do zero com autonomia total em ambiente remoto, dei meus primeiros passos em backend e testes em produção e, hoje, assumo ownership de módulos críticos em plataformas de grande escala e interesse público nacional. A cada lugar somei uma camada nova — disciplina, visão de arquitetura, depuração de dados reais, integrações complexas — e sigo transitando entre stacks distintas (TypeScript/NestJS e C#/.NET) com foco em fundamentos, qualidade e impacto.'
 
 export function AboutSection() {
   return (
