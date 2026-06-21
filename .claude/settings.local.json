@@ -24,7 +24,11 @@
       "Bash(git push *)",
       "Bash(git pull *)",
       "Bash(npm list *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(git commit -m 'fix: explicitly set packageManager to npm in render.yaml *)",
+      "Bash(yarn install *)",
+      "Bash(git restore *)",
+      "Bash(git commit -m 'fix: use npm ci in render.yaml and remove yarn conflicts *)"
     ]
   }
 }

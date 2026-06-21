@@ -2,6 +2,5 @@ services:
   - type: web
     name: portfolio
     env: static
-    packageManager: npm
-    buildCommand: npm install && npm run build
+    buildCommand: npm ci && npm run build
     staticPublishPath: dist
